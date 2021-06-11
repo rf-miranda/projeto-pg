@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(0, 127, 255);
+    background: radial-gradient(circle, rgba(0, 127, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.background-image {
+    font-size: 30pt;
+    background-image: url('../img/bisaoamericano.jpg');
+    /*define o tamanho da imagem de fundo do elemento.
+    A imagem pode ser deixada para seu tamanho natural, esticada ou restrita para caber no espaço disponível*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.caixa {
+    position: static;
+    background-color: blue;
+    border: 1px solid red;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; */
+    width: 500px;
+    height: 200px;
+    font-size: 25px;
+    padding: 20px 40px 30px 10px;
+    margin: 0px auto;
+}

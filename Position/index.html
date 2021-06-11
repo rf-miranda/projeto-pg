@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Position</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>STATIC</h1>
+    <div class="static">
+        <p>o valor <i><b>static</b></i> é o valor padrão de todos os elementos HTML. Um elemento com <i><b>position:
+                    static</b></i> não se posiciona de maneira especial, seria o mesmo que dizer que o elemento não tem
+            posição definida ou então que um elemento com o atributo position definido seria posicionado.</p>
+    </div>
+    <h1>RELATIVE</h1>
+    <div class="relative1">
+        relative se comporta igualmente ao static, a menos que se adicione propriedades extras no estilo do elemento.
+        <div class="relative2">
+            Definindo as propriedades top, right, bottom, e left em um elemento position:relative o ajustamos em relação
+            à
+            posição atual dele. Outros conteúdos não vão se ajustar para se encaixarem em qualquer espaço deixado por
+            esse
+            elemento.
+        </div>
+        <div class="fixed">
+            Estou aqui!!!!!
+        </div>
+    </div>
+
+    <h1>FIXED</h1>
+
+    <h1>ABSOLUTE</h1>
+    <div class="relative">
+        Este elemento está com position:relative. Se este elemento tivesse com position: static;, seu elemento filho
+        escaparia e se posicionaria em relação ao elemento body do documento
+    </div>
+    <div class="absolute">
+        Este elemento é position:absolute. E é posicionado em relação ao seu elemento pai.
+    </div>
+</body>
+
+</html>

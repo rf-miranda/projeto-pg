@@ -1,0 +1,27 @@
+p{
+    color: red;
+    text-align: justify;
+    
+}
+#regra1{
+    color: yellow;
+    text-align: center;
+    background-color:green;
+}
+.classe1{
+    font-size: 200%;
+    background-color: indigo;
+    color: white;
+}
+.paragrafo{
+    width: 75%;
+    border: 5px solid blue;
+    margin: 100px 0px 0px 0px;
+    padding: 10px 10px 20px 20px;
+
+    /* border-top: 2px solid black;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    border-bottom: 4px solid green; */
+
+}

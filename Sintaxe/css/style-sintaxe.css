@@ -1,0 +1,17 @@
+p {
+    font-size: 14px;
+    color: red;
+}
+
+p,
+h1,
+h2,
+h3 {
+    color: rgb(73, 63, 20);
+}
+
+/* 
+* {
+    margin: 0;
+    padding: 0;
+} */

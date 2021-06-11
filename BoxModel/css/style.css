@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+.box {
+    width: 500px;
+    height: 500px;
+    background-color:  rgb(115, 238, 132);
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+h4 {
+    background-color: yellow;
+    padding: 20px 50px; /* top and bottom: 20px padding */
+                        /* left and right: 50px padding */
+  }
+  
+  h3 {
+    background-color: cyan;
+    padding: 110px 50px 50px 110px; /* top:    110px padding  */
+                                    /* right:  50px padding  */  
+                                    /* bottom: 50px padding */
+                                    /* left:   110px padding  */
+  }

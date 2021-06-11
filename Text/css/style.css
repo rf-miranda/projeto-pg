@@ -1,0 +1,65 @@
+/* PROPRIEDADE TEXT-ALIGN */
+.texto{
+    margin: 50px;
+    border: 1px solid #ccc;
+}
+h4{
+    color: green;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-justify{
+    text-align: justify;
+}
+/****************************/
+
+/* PROPRIEDADE TEXT-DECORATION */
+.under {
+    text-decoration: underline red;
+  }
+  
+  .over {
+    text-decoration: wavy overline lime;
+  }
+  
+  .line {
+    text-decoration: line-through;
+  }
+  
+  .plain {
+    text-decoration: none;
+  }
+  
+  .underover {
+    text-decoration: dashed underline overline;
+  }
+  
+  .blink {
+    text-decoration: blink;
+  }
+/****************************/
+
+/* PROPRIEDADE TEXT-INDENT */
+  .indent {
+    text-indent: 40%;
+    background: plum;
+  }
+/****************************/
+
+/* PROPRIEDADE TEXT-TRANSFORM */
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.lowercase {
+  text-transform: lowercase;
+}
