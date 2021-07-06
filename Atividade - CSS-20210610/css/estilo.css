@@ -1,4 +1,5 @@
 * {
+    margin: 0px;
     padding: 0px;
 }
 
@@ -12,6 +13,7 @@ body {
     margin-right: auto;
     position: center;
     padding: 0;
+    position: relative;
 }
 
 header {
@@ -22,7 +24,9 @@ header img {
     width: 100%;
 }
 
-section {}
+section {
+    padding: 5px;
+}
 
 article {
     border-bottom: 5px dotted #4640bf;
@@ -30,12 +34,20 @@ article {
     padding: 20px;
 }
 
-footer {}
+footer {
+    padding: 30px;
+}
 
 .titulo-pagina {
+
+    position: absolute;
+    top: 20px;
+    left: 30px;
+
     size: 16pt;
     font-weight: bold;
-    text-align: right;
+    /* com a posição absoluto o text-align perde a função */
+    /* text-align: right; */
     margin-right: 50px;
 }
 
@@ -55,12 +67,13 @@ h1 {
 
 .link-continue {
     text-align: right;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .link-continue a {
     color: red;
     text-transform: uppercase;
+    font-size: 8pt;
 }
 
 a {
@@ -74,18 +87,21 @@ a {
 .ir-topo a {
     text-transform: uppercase;
     color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .social {
     width: 25px;
-    height: 25px;
+    /* height: 25px; */
 }
 
 .detalhes {
     color: gray 8pt;
     font-size: 8pt;
     margin-bottom: 20px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .detalhes a {
